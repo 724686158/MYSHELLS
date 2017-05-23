@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "please input the version"
+read version
+docker run -p 5000:5000 mi:$version
