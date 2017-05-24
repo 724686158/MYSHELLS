@@ -1,7 +1,7 @@
 {
 "id": "mesos-dns",
-"cpus": 0.5,
-"mem": 128.0,
+"cpus": 1,
+"mem": 512.0,
 "instances": 3,
 "constraints": [["hostname", "UNIQUE"]],
 "cmd": "/opt/mesos-dns/mesos-dns -config /opt/mesos-dns/config.json"
