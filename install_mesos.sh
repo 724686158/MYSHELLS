@@ -14,4 +14,4 @@ cd build
 ../configure
 make check
 make install
-
+nohup /opt/mesos/mesos-1.2.0/build/bin/mesos-agent.sh  --master=192.168.210.152:5050 --work_dir=/var/lib/mesos &
