@@ -15,4 +15,4 @@ ip=$node2_ip
 fi
 
 docker rm -f redis_server
-docker run --name redis_server -v /redisdb/20170512:/data -d -p $ip:7001:6379 -m 8g redis:latest --appendonly yes
+docker run --restart=always --name redis_server -v /redisdb/20170512:/data -d -p $ip:7001:6379 -m 8g redis:latest --appendonly yes
