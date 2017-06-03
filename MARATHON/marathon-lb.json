@@ -1,0 +1,21 @@
+ {
+                "id": "marathon-lb",
+                "args":[
+                  "sse",
+                  "--marathon", "http://10.63.240.131:8080",
+                  "--group", "external"
+                ],
+                "cpus": 1,
+                "mem": 512,
+                "instances": 1,
+                "env": {
+                  "PORTS": "9090"
+                },
+                "container": {
+                  "type": "DOCKER",
+                  "docker": {
+                    "image": "mesosphere/marathon-lb",
+                    "network": "HOST"
+                  }
+                }
+              }
