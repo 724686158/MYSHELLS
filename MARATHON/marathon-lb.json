@@ -2,7 +2,7 @@
                 "id": "marathon-lb",
                 "args":[
                   "sse",
-                  "--marathon", "http://10.63.240.131:8080",
+                  "--marathon", "http://192.168.210.152:8080",
                   "--group", "external"
                 ],
                 "cpus": 1,
