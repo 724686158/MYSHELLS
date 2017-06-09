@@ -1,9 +1,9 @@
 {
-  "id": "/mi_02",
+  "id": "/mi20170607001",
   "cmd": null,
   "cpus": 1,
   "mem": 128,
-  "disk": 0,
+  "disk": 128,
   "instances": 1,
   "acceptedResourceRoles": [],
   "container": {
