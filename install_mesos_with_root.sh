@@ -13,5 +13,6 @@ mkdir build
 cd build
 apt install zlib1g-dev 
 ../configure
+make
 make check
 make install
