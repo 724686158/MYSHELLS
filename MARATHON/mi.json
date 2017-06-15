@@ -1,29 +1,17 @@
 {
-  "id": "/mi20170607001",
+  "id": "20170615miv8",
   "cmd": null,
   "cpus": 1,
-  "mem": 128,
-  "disk": 128,
-  "instances": 1,
-  "acceptedResourceRoles": [],
+  "mem": 256,
+  "disk": 256,
+  "instances": 2,
   "container": {
-    "type": "DOCKER",
-    "volumes": [],
     "docker": {
-      "image": "mi:v6",
+      "image": "mi:v8",
       "network": "HOST",
-      "portMappings": [],
-      "privileged": false,
-      "parameters": [],
-      "forcePullImage": false
-    }
-  },
-  "portDefinitions": [
-    {
-      "port": 10000,
-      "protocol": "tcp",
-      "name": "default",
-      "labels": {}
-    }
-  ]
+      "parameters": []
+    },
+    "type": "DOCKER",
+    "volumes": []
+  }
 }
