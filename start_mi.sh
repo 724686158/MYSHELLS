@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "please input the mi_manager's version"
+docker images
+echo "please input the version"
 read ver
 time=$(date +%s)
 docker run --name mi_$time --net=host -d mi:$ver

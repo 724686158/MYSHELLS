@@ -1,3 +1,2 @@
 log4j:WARN No appenders could be found for logger (org.apache.zookeeper.server.quorum.QuorumPeerConfig).
 log4j:WARN Please initialize the log4j system properly.
-Invalid config, exiting abnormally
