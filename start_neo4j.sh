@@ -1,0 +1,1 @@
+docker run --restart=always -v=/root/neo4j/import:/import:rw -v=/root/neo4j/data:/data -p 172.16.38.169:7687:7687 -p 172.16.38.169:7473:7474 --env=NEO4J_AUTH=neo4j/password -e=NEO4J_dbms_memory_pagecache_size=4G -d docker.io/neo4j:latest
