@@ -1,0 +1,1 @@
+docker run --restart=always -it -d zendesk/maxwell bin/maxwell --user=maxwell --password=XXXXXX --host=47.98.124.149 --producer= kafka --kafka.bootstrap.servers=47.98.124.149:9092 --kafka_topic=binlog --output_ddl --output_schema_id --output_thread_id --output_server_id --output_row_query --output_xoffset --output_binlog_position
