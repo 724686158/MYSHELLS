@@ -3,7 +3,7 @@ services:
   kafka-manager:
     image: sheepkiller/kafka-manager            # 如果要安装web管理工具可以同时安装这个，最后通过苏主机IP的9000端口进行访问，例如172.31.148.174:9000
     environment:
-      ZK_HOSTS: 47.98.124.149:2181
+      ZK_HOSTS: 10.1.50.77:2181
       APPLICATION_SECRET: "letmein"
     ports:
       - "39001:9000"
